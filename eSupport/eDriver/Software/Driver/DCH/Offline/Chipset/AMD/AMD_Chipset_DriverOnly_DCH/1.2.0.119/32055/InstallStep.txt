@@ -1,0 +1,9 @@
+Review the InstallStep.txt file to learn how to install the driver.
+Step by step
+1. Extract the drivers package and get into the folder
+2. Press windows key, then key-in PowerShell and run it as Administrator
+3. Select Yes, Allow this app to make changes to your device.
+4. Into the Driver folder.(EX：cd /Driver package folder) 
+6. Input .\Install.cmd
+7. Press Enter key to start drivers installation until return to next command line.
+8. After install successfully, please restart.

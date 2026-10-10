@@ -1,0 +1,121 @@
+;------------------------------------------------------------------------------
+;AMD Audio CoProcessor extention file : amdacpbusext.inf
+;
+;Copyright(c) 2021 Advanced Micro Devices, Inc.All rights reserved
+;------------------------------------------------------------------------------
+[Version]
+Signature = "$WINDOWS NT$"
+Class = Extension
+ClassGuid = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider = %ManufacturerName%
+ExtensionId = {491BC072-CC32-40B2-A29E-C1C06491DA4A}
+DriverVer = 05/31/2023,6.0.5.41
+CatalogFile = amdacpbusext.cat
+PnpLockdown=1
+
+[SourceDisksNames]
+1 = %DiskName%
+
+[SourceDisksFiles]
+acpcfg0001.dat = 1
+acpcfg0002.dat = 1
+acpcfg0003.dat = 1
+
+[DestinationDirs]
+AcpConfig.ACP_6_0_CopyList = 13
+AcpConfig.ACP_6_2_CopyList = 13
+AcpConfig.ACP_6_F_CopyList = 13
+
+[AcpConfig.ACP_6_0_CopyList]
+acpcfg0001.dat
+
+[AcpConfig.ACP_6_2_CopyList]
+acpcfg0002.dat
+
+[AcpConfig.ACP_6_F_CopyList]
+acpcfg0003.dat
+
+;*****************************************
+; Install Section
+;*****************************************
+[Manufacturer]
+%ManufacturerName% = AMD, NTamd64
+
+[AMD.NTamd64]
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_12EF1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_12DF1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_12CF1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_1CB21043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_13FF1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_1D921043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_131F1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_1CC21043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_1D421043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_1C521043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_1F121043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_15DF1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_1EE21043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_140F1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_1F921043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_25E01043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_26101043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_12231043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_12331043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_18FF1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_12B31043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_198F1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_13131043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_1AAF1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_16AF1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_16BF1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_174F1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_1FC21043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_88701043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_15331043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_14631043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_15131043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_14B31043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_1C7F1043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_17F31043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_0, PCI\VEN_1022&DEV_15E2&SUBSYS_18D31043&REV_60
+%amdacpbus.DeviceDesc% = ACP_6_2, PCI\VEN_1022&DEV_15E2&SUBSYS_15031043&REV_62
+%amdacpbus.DeviceDesc% = ACP_6_2, PCI\VEN_1022&DEV_15E2&SUBSYS_1D1F1043&REV_62
+%amdacpbus.DeviceDesc% = ACP_6_2, PCI\VEN_1022&DEV_15E2&SUBSYS_14E31043&REV_62
+%amdacpbus.DeviceDesc% = ACP_6_2, PCI\VEN_1022&DEV_15E2&SUBSYS_14331043&REV_62
+%amdacpbus.DeviceDesc% = ACP_6_F, PCI\VEN_1022&DEV_15E2&SUBSYS_1DCF1043&REV_6F
+%amdacpbus.DeviceDesc% = ACP_6_F, PCI\VEN_1022&DEV_15E2&SUBSYS_16031043&REV_6F
+%amdacpbus.DeviceDesc% = ACP_6_F, PCI\VEN_1022&DEV_15E2&SUBSYS_3AF01043&REV_6F
+%amdacpbus.DeviceDesc% = ACP_6_F, PCI\VEN_1022&DEV_15E2&SUBSYS_3B001043&REV_6F
+
+[ACP_6_0.NT]
+CopyFiles = AcpConfig.ACP_6_0_CopyList
+AddReg = ACP_6_0.AddReg
+
+
+[ACP_6_2.NT]
+CopyFiles = AcpConfig.ACP_6_2_CopyList
+AddReg = ACP_6_2.AddReg
+
+
+[ACP_6_F.NT]
+CopyFiles = AcpConfig.ACP_6_F_CopyList
+AddReg = ACP_6_F.AddReg
+
+[ACP_6_0.AddReg]
+HKR,,AcpConfigDatPath,,"%13%\acpcfg0001.dat"
+
+[ACP_6_2.AddReg]
+HKR,,AcpConfigDatPath,,"%13%\acpcfg0002.dat"
+
+[ACP_6_F.AddReg]
+HKR,,AcpConfigDatPath,,"%13%\acpcfg0003.dat"
+
+
+[Strings]
+ManufacturerName = "AMD"
+amdacpbus.DeviceDesc = "AMD Audio CoProcessor Extension"
+DiskName = "AMD Audio CoProcessor Extension Installation Disk"
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+REG_MULTI_SZ_APPEND = 0x00010008

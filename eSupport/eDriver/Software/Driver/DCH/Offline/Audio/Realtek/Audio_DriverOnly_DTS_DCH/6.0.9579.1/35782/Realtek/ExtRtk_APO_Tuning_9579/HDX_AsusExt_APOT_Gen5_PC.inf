@@ -1,0 +1,191 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OrganizationName%
+ExtensionId = {3435F85A-6E2A-4284-90D8-2BE4CF7A27DD}
+CatalogFile = HDXRTAPOExt.cat
+DriverVer   = 09/19/2023, 6.0.9579.1
+PnpLockDown = 1
+
+[Manufacturer]
+%MfgName% = DeviceExtensions,NTamd64.10.0...16299
+
+[DeviceExtensions.NTamd64.10.0...16299]
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431C13
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431C03
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431A83
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431A33
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_104318D3
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431683
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431ECF
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431853
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431FAF
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431653
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431EBF
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_10431C53
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_10431BD3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431B43
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431B03
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431AF3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431F7F
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431F8F
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431813
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431A63
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431EEF
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431F0F
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_104316C3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_104317D3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431703
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_104316D3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_104316F3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431723
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431F1F
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431713
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_104316A3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431693
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431EDF
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431643
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431EAF
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431873
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431843
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431F9F
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431863
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_104319B3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_104319D3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_104318F3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10433650
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431893
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_104318B3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_104315F3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431623
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_104316B3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431E1F
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_104317B3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431793
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_104317A3
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431743
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431803
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431773
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10433640
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10433630
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10433620
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_10431603
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_10431DCF
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431753
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431F3F
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431F4F
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431EC2
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431A13
+%Device.ExtensionDesc% = DeviceExtension_Install, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431C43
+%Device.ExtensionDesc% = DeviceExtension_Install, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10433AF0
+%Device.ExtensionDesc% = DeviceExtension_Install, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10433B00
+%Device.ExtensionDesc% = DeviceExtension_Install, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10433BF0
+%Device.ExtensionDesc% = DeviceExtension_Install, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431DE3
+
+[DeviceExtension_Install]
+AddReg = IntcAzAudModelAddReg, SysRecFx.AddReg, UserData.AddReg
+
+[IntcAzAudModelAddReg]
+HKR,Settings,EPSubVer4,0x00010001,1
+
+;; render endpoint settings
+HKR,InterfaceSetting,RearLineOutTopo,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,PrimaryLineOutTopo,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,SingleLineOutTopo,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,SecondaryLineOutTopo,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,FrontPanelHeadphoneTopo,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RtSpdifTopo,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RtSpdifHDMITopo,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RtSpdifRCATopo,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RtSpdifOptTopo,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,BTBPOutTopo,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearLineOutTopoSST,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearLineOutTopoSST2,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearLineOutTopoSST3,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearLineOutTopoDock,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearLineOutTopoHap,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearLineOutTopoHap2,0x10008,"SysCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearLineOutTopoHap3,0x10008,"SysCustomizedFx_Gen5UI"
+
+;; capture endpoint settings
+HKR,InterfaceSetting,RearMicInBlackTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearMicInGreyTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearMicInBlueTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearMicInGreenTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearMicInRedTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearMicInOrangeTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearMicInYellowTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearMicInPurpleTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearMicInPinkTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearMicInGoldenTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearMicInSilverTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RearMicInWhiteTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,FrontMicInBlackTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,FrontMicInGreyTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,FrontMicInBlueTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,FrontMicInGreenTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,FrontMicInRedTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,FrontMicInOrangeTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,FrontMicInYellowTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,FrontMicInPurpleTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,FrontMicInPinkTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,FrontMicInGoldenTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,FrontMicInSilverTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,FrontMicInWhiteTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,BTBPInTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RtMicInTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,DigitalMICTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RtMicArTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+HKR,InterfaceSetting,RtMicInSSTTopo,0x10008,"SysRecCustomizedFx_Gen5UI"
+
+[SysRecFx.AddReg]
+HKR,InterfaceSetting\SysCustomizedFx_Gen5UI\EP\0,%PKEY_RTK_BSS_Render_Omni_AINS_Level_UI%,%REG_DWORD%,0x0
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\EP\0,%PKEY_RTK_BSS_SpeakerTrack_UI%,%REG_DWORD%,0x1
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\EP\0,%PKEY_RTK_BSS_StudioHQ_Uni_UI%,%REG_DWORD%,0x1
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\EP\0,%PKEY_RTK_BSS_StudioHQ_Omni_UI%,%REG_DWORD%,0x1
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\EP\0,%PKEY_RTK_BSS_StudioHQ_Stereo_UI%,%REG_DWORD%,0x0
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\EP\0,%PKEY_RTK_BSS_Uni_AINS_Level_UI%,%REG_DWORD%,0x0
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\EP\0,%PKEY_RTK_BSS_Omni_AINS_Level_UI%,%REG_DWORD%,0x0
+
+[UserData.AddReg]
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\FX\0\%REALTEK_APO_CONTEXT_GUID%\Default,%PKEY_BSS_USER_DATA_0%,1,41,00,00,00,01,00,00,00
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\FX\0\%REALTEK_APO_CONTEXT_GUID%\Default,%PKEY_BSS_USER_DATA_1%,1,41,00,00,00,01,00,00,00
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\FX\0\%REALTEK_APO_CONTEXT_GUID%\Default,%PKEY_BSS_USER_DATA_2%,1,41,00,00,00,01,00,00,00
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\FX\0\%REALTEK_APO_CONTEXT_GUID%\Default,%PKEY_BSS_USER_DATA_3%,1,41,00,00,00,01,00,00,00
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\FX\0\%REALTEK_APO_CONTEXT_GUID%\User,%PKEY_BSS_USER_DATA_0%,1,41,00,00,00,01,00,00,00
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\FX\0\%REALTEK_APO_CONTEXT_GUID%\User,%PKEY_BSS_USER_DATA_1%,1,41,00,00,00,01,00,00,00
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\FX\0\%REALTEK_APO_CONTEXT_GUID%\User,%PKEY_BSS_USER_DATA_2%,1,41,00,00,00,01,00,00,00
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\FX\0\%REALTEK_APO_CONTEXT_GUID%\User,%PKEY_BSS_USER_DATA_3%,1,41,00,00,00,01,00,00,00
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\FX\0\%REALTEK_APO_CONTEXT_GUID%\Volatile,%PKEY_BSS_USER_DATA_0%,1,41,00,00,00,01,00,00,00
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\FX\0\%REALTEK_APO_CONTEXT_GUID%\Volatile,%PKEY_BSS_USER_DATA_1%,1,41,00,00,00,01,00,00,00
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\FX\0\%REALTEK_APO_CONTEXT_GUID%\Volatile,%PKEY_BSS_USER_DATA_2%,1,41,00,00,00,01,00,00,00
+HKR,InterfaceSetting\SysRecCustomizedFx_Gen5UI\FX\0\%REALTEK_APO_CONTEXT_GUID%\Volatile,%PKEY_BSS_USER_DATA_3%,1,41,00,00,00,01,00,00,00
+
+[Strings]
+OrganizationName     = "Realtek Semiconductor Corp."
+MfgName              = "Realtek"
+Realtek	             = "Realtek"
+Device.ExtensionDesc = "Realtek Device Extension"
+ExtendedFriendlyName = "Realtek(R) Audio"
+
+PKEY_RTK_BSS_SpeakerTrack_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},0"
+PKEY_RTK_BSS_StudioHQ_Uni_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},1"
+PKEY_RTK_BSS_StudioHQ_Omni_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},2"
+PKEY_RTK_BSS_StudioHQ_Stereo_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},3"
+PKEY_RTK_BSS_Uni_AINS_Level_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},4"
+PKEY_RTK_BSS_Omni_AINS_Level_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},5"
+PKEY_RTK_BSS_Render_Omni_AINS_Level_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},6"
+
+REALTEK_APO_CONTEXT_GUID = "{12325C6D-6D93-4AB3-BFF6-D04968D361DD}"
+
+PKEY_BSS_USER_DATA_0 = "{911DFF54-0B79-4E96-B3DE-577F235B619B},104"
+PKEY_BSS_USER_DATA_1 = "{911DFF54-0B79-4E96-B3DE-577F235B619B},109"
+PKEY_BSS_USER_DATA_2 = "{911DFF54-0B79-4E96-B3DE-577F235B619B},119"
+PKEY_BSS_USER_DATA_3 = "{911DFF54-0B79-4E96-B3DE-577F235B619B},120"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+

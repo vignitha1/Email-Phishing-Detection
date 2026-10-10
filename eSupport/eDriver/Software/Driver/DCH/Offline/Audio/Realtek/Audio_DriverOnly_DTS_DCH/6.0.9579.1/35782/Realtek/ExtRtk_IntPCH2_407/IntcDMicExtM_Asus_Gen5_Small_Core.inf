@@ -1,0 +1,159 @@
+[Version]
+Signature="$Windows NT$"
+Class=Extension
+ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider=Realtek
+ExtensionId={7f7901fa-ea73-4a95-bada-55bf89f37009}
+CatalogFile=IntcDMicExt.cat
+DriverVer = 09/14/2023, 09.21.3690.407
+PnpLockDown = 1
+
+[Manufacturer]
+"Intel(R) Corporation" = Intel, NTAMD64.10.0...16299
+
+[Intel.NTAMD64.10.0...16299]
+%Device.ExtensionDesc% = IntcAudModel, INTELAUDIO\CTLR_DEV_54C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_10431713&REV_10EC
+%Device.ExtensionDesc% = IntcAudModel, INTELAUDIO\CTLR_DEV_54C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_104318F3
+%Device.ExtensionDesc% = IntcAudModel, INTELAUDIO\CTLR_DEV_54C8&LINKTYPE_02&DEVTYPE_00&VEN_8086&DEV_AE20&SUBSYS_10433650
+
+[IntcAudModel]
+
+[IntcAudModel.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_1%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_1%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_2%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_2%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_4%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_4%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_1%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_1%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_2%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_2%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_4%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_4%,IntcAudModel.DmicInput.Topo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_1_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_1_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_2_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_2_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_4_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_4_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_1_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_1_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_2_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_2_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_4_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_4_24%,IntcAudModel.DmicInput.Topo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_1%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_1%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_2%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_2%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_4%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_4%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_1_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_1_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_2_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_2_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_4_24%,IntcAudModel.DmicInput.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_4_24%,IntcAudModel.DmicInput.Topo
+
+[IntcAudModel.DmicInput.Topo]
+AddReg = SysRecFx.AddReg
+
+[SysRecFx.AddReg]
+HKR,"EP\\0",%PKEY_RTK_BSS_SpeakerTrack_UI%,%REG_DWORD%,0x0
+HKR,"EP\\0",%PKEY_RTK_BSS_StudioHQ_Uni_UI%,%REG_DWORD%,0x1
+HKR,"EP\\0",%PKEY_RTK_BSS_StudioHQ_Omni_UI%,%REG_DWORD%,0x1
+HKR,"EP\\0",%PKEY_RTK_BSS_StudioHQ_Stereo_UI%,%REG_DWORD%,0x0
+HKR,"EP\\0",%PKEY_RTK_BSS_Uni_AINS_Level_UI%,%REG_DWORD%,0x0
+HKR,"EP\\0",%PKEY_RTK_BSS_Omni_AINS_Level_UI%,%REG_DWORD%,0x0
+
+[Strings]
+KSCATEGORY_AUDIO = "{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_RENDER = "{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_CAPTURE = "{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_TOPOLOGY = "{DDA54A40-1E4C-11D1-A050-405705C10000}"
+
+KSNAME_DmicIn1.Topo_1 = "IntcDMicTopo_1_48_16_D0"
+KSNAME_DmicIn1.Topo_2 = "IntcDMicTopo_2_48_16_D0"
+KSNAME_DmicIn1.Topo_4 = "IntcDMicTopo_4_48_16_D0"
+KSNAME_DmicIn2.Topo_1 = "IntcDMicTopo_1_48_16_D1"
+KSNAME_DmicIn2.Topo_2 = "IntcDMicTopo_2_48_16_D1"
+KSNAME_DmicIn2.Topo_4 = "IntcDMicTopo_4_48_16_D1"
+KSNAME_DmicIn1.Topo_1_24 = "IntcDMicTopo_1_48_24_D0"
+KSNAME_DmicIn1.Topo_2_24 = "IntcDMicTopo_2_48_24_D0"
+KSNAME_DmicIn1.Topo_4_24 = "IntcDMicTopo_4_48_24_D0"
+KSNAME_DmicIn2.Topo_1_24 = "IntcDMicTopo_1_48_24_D1"
+KSNAME_DmicIn2.Topo_2_24 = "IntcDMicTopo_2_48_24_D1"
+KSNAME_DmicIn2.Topo_4_24 = "IntcDMicTopo_4_48_24_D1"
+KSNAME_DmicIn.Topo_new_1 = "IntcDMicTopo_1 _48_16_0"
+KSNAME_DmicIn.Topo_new_2 = "IntcDMicTopo_2 _48_16_0"
+KSNAME_DmicIn.Topo_new_4 = "IntcDMicTopo_4 _48_16_0"
+KSNAME_DmicIn.Topo_new_1_24 = "IntcDMicTopo_1 _48_24_0"
+KSNAME_DmicIn.Topo_new_2_24 = "IntcDMicTopo_2 _48_24_0"
+KSNAME_DmicIn.Topo_new_4_24 = "IntcDMicTopo_4 _48_24_0"
+
+Device.ExtensionDesc = "Intel Device Extension"
+
+PKEY_FX_Association                 = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},0"
+PKEY_FX_PreMixEffectClsid           = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},1"
+PKEY_FX_PostMixEffectClsid          = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},2"
+PKEY_FX_UserInterfaceClsid          = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},3"
+PKEY_FX_StreamEffectClsid           = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},5"
+PKEY_FX_ModeEffectClsid             = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},6"
+PKEY_FX_EndpointEffectClsid         = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},7"
+PKEY_FX_KeywordDetector_StreamEffectClsid   = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},8"
+PKEY_FX_KeywordDetector_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},9"
+PKEY_FX_KeywordDetector_EndpointEffectClsid = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},10"
+PKEY_FX_Offload_StreamEffectClsid    = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},11"
+PKEY_FX_Offload_ModeEffectClsid      = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},12"
+PKEY_CompositeFX_StreamEffectClsid   = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},13"
+PKEY_CompositeFX_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},14"
+PKEY_CompositeFX_EndpointEffectClsid = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},15"
+PKEY_CompositeFX_KeywordDetector_StreamEffectClsid   = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},16"
+PKEY_CompositeFX_KeywordDetector_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},17"
+PKEY_CompositeFX_KeywordDetector_EndpointEffectClsid = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},18"
+PKEY_CompositeFX_Offload_StreamEffectClsid   = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},19"
+PKEY_CompositeFX_Offload_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},20"
+PKEY_SFX_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},5"
+PKEY_MFX_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},6"
+PKEY_EFX_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},7"
+PKEY_SFX_KeywordDetector_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},8"
+PKEY_MFX_KeywordDetector_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},9"
+PKEY_EFX_KeywordDetector_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},10"
+PKEY_SFX_Offload_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},11"
+PKEY_MFX_Offload_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},12"
+
+PKEY_BYPASS_TP_EFFECTS = "{0F8412D3-DC5C-4DB3-B174-DC47A859435C},0"
+PKEY_SNW_IND = "{0F8412D3-DC5C-4DB3-B174-DC47A859435C},5"
+PKEY_RTINT_FOR_ONBOARD = "{0F8412D3-DC5C-4DB3-B174-DC47A859435C},9"
+PKEY_INT_MIC = "{3BA0CD54-830F-4551-A6EB-F3EAB68E3700},17"
+
+REALTEKREC_INT_SFX_CLSID        = "{A053C059-93C1-452D-B320-C748022F78E9}"
+REALTEKREC_INT_MFX_CLSID        = "{A0633F38-841C-4CB4-9657-CD0DF0E235E7}"
+REALTEKREC_INT_EFX_CLSID        = "{A0732B46-5CC2-4A50-AFAD-79147B4E3AB4}"
+REALTEKREC_INT_INVVOLMFX_CLSID  = "{A063A5E1-D1B3-4A4F-888C-F2BB3841F510}"
+REALTEKREC_INT_VOLMFX_CLSID     = "{A06372D3-DD3D-4320-B111-A40D846736BA}"
+REALTEKREC_INT_KDMFX_CLSID      = "{A063B078-5E66-42A5-B7E4-E3F2EA140531}"
+
+PKEY_RTK_BSS_SpeakerTrack_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},0"
+PKEY_RTK_BSS_StudioHQ_Uni_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},1"
+PKEY_RTK_BSS_StudioHQ_Omni_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},2"
+PKEY_RTK_BSS_StudioHQ_Stereo_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},3"
+PKEY_RTK_BSS_Uni_AINS_Level_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},4"
+PKEY_RTK_BSS_Omni_AINS_Level_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},5"
+PKEY_RTK_BSS_Render_Omni_AINS_Level_UI = "{1191EB08-2BF7-4400-9856-533138093C8C},6"
+
+AUDIO_SIGNALPROCESSINGMODE_DEFAULT = "{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}"
+AUDIO_SIGNALPROCESSINGMODE_RAW = "{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}"
+AUDIO_SIGNALPROCESSINGMODE_SPEECH = "{FC1CFC9B-B9D6-4CFA-B5E0-4BB2166878B2}"
+AUDIO_SIGNALPROCESSINGMODE_COMMUNICATION = "{98951333-B9CD-48B1-A0A3-FF40682D73F7}"
+KSNODETYPE_ANY = "{00000000-0000-0000-0000-000000000000}"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+
+REALTEK_APO_CONTEXT_GUID = "{12325C6D-6D93-4AB3-BFF6-D04968D361DD}"
+

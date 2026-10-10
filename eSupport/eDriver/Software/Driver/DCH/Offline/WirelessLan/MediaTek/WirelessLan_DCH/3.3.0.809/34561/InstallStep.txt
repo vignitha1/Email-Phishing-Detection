@@ -1,0 +1,8 @@
+1. Extract the driver package and get into the folder.
+2. Copy the path of extracted folder.
+3. Open Windows PowerShell as administrator option.
+4. Select Yes, Allow this app to make changes to your device.
+5. Paste the copied path and get into the folder. 
+6. Input .\Install.bat
+7. Press Enter key to start drivers installation until return to next command line.
+8. After install successfully, please restart.
